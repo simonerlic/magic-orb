@@ -1,0 +1,597 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A852FBD72A6364EF003FE11C /* MagicOrbApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A852FBD62A6364EF003FE11C /* MagicOrbApp.swift */; };
+		A852FBD92A6364EF003FE11C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A852FBD82A6364EF003FE11C /* ContentView.swift */; };
+		A852FBDB2A6364F1003FE11C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A852FBDA2A6364F1003FE11C /* Assets.xcassets */; };
+		A852FBDE2A6364F1003FE11C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A852FBDD2A6364F1003FE11C /* Preview Assets.xcassets */; };
+		A852FBE02A6364F1003FE11C /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = A852FBDF2A6364F1003FE11C /* Item.swift */; };
+		A852FBEA2A6364F1003FE11C /* MagicOrbTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A852FBE92A6364F1003FE11C /* MagicOrbTests.swift */; };
+		A852FBF42A6364F1003FE11C /* MagicOrbUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A852FBF32A6364F1003FE11C /* MagicOrbUITests.swift */; };
+		A852FBF62A6364F1003FE11C /* MagicOrbUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A852FBF52A6364F1003FE11C /* MagicOrbUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A852FBE62A6364F1003FE11C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A852FBCB2A6364EF003FE11C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A852FBD22A6364EF003FE11C;
+			remoteInfo = MagicOrb;
+		};
+		A852FBF02A6364F1003FE11C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A852FBCB2A6364EF003FE11C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A852FBD22A6364EF003FE11C;
+			remoteInfo = MagicOrb;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A852FBD32A6364EF003FE11C /* MagicOrb.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MagicOrb.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A852FBD62A6364EF003FE11C /* MagicOrbApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagicOrbApp.swift; sourceTree = "<group>"; };
+		A852FBD82A6364EF003FE11C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A852FBDA2A6364F1003FE11C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A852FBDD2A6364F1003FE11C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A852FBDF2A6364F1003FE11C /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		A852FBE52A6364F1003FE11C /* MagicOrbTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MagicOrbTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A852FBE92A6364F1003FE11C /* MagicOrbTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagicOrbTests.swift; sourceTree = "<group>"; };
+		A852FBEF2A6364F1003FE11C /* MagicOrbUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MagicOrbUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A852FBF32A6364F1003FE11C /* MagicOrbUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagicOrbUITests.swift; sourceTree = "<group>"; };
+		A852FBF52A6364F1003FE11C /* MagicOrbUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagicOrbUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A852FBD02A6364EF003FE11C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A852FBE22A6364F1003FE11C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A852FBEC2A6364F1003FE11C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A852FBCA2A6364EF003FE11C = {
+			isa = PBXGroup;
+			children = (
+				A852FBD52A6364EF003FE11C /* MagicOrb */,
+				A852FBE82A6364F1003FE11C /* MagicOrbTests */,
+				A852FBF22A6364F1003FE11C /* MagicOrbUITests */,
+				A852FBD42A6364EF003FE11C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A852FBD42A6364EF003FE11C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A852FBD32A6364EF003FE11C /* MagicOrb.app */,
+				A852FBE52A6364F1003FE11C /* MagicOrbTests.xctest */,
+				A852FBEF2A6364F1003FE11C /* MagicOrbUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A852FBD52A6364EF003FE11C /* MagicOrb */ = {
+			isa = PBXGroup;
+			children = (
+				A852FBD62A6364EF003FE11C /* MagicOrbApp.swift */,
+				A852FBD82A6364EF003FE11C /* ContentView.swift */,
+				A852FBDA2A6364F1003FE11C /* Assets.xcassets */,
+				A852FBDF2A6364F1003FE11C /* Item.swift */,
+				A852FBDC2A6364F1003FE11C /* Preview Content */,
+			);
+			path = MagicOrb;
+			sourceTree = "<group>";
+		};
+		A852FBDC2A6364F1003FE11C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A852FBDD2A6364F1003FE11C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A852FBE82A6364F1003FE11C /* MagicOrbTests */ = {
+			isa = PBXGroup;
+			children = (
+				A852FBE92A6364F1003FE11C /* MagicOrbTests.swift */,
+			);
+			path = MagicOrbTests;
+			sourceTree = "<group>";
+		};
+		A852FBF22A6364F1003FE11C /* MagicOrbUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A852FBF32A6364F1003FE11C /* MagicOrbUITests.swift */,
+				A852FBF52A6364F1003FE11C /* MagicOrbUITestsLaunchTests.swift */,
+			);
+			path = MagicOrbUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A852FBD22A6364EF003FE11C /* MagicOrb */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A852FBF92A6364F1003FE11C /* Build configuration list for PBXNativeTarget "MagicOrb" */;
+			buildPhases = (
+				A852FBCF2A6364EF003FE11C /* Sources */,
+				A852FBD02A6364EF003FE11C /* Frameworks */,
+				A852FBD12A6364EF003FE11C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MagicOrb;
+			productName = MagicOrb;
+			productReference = A852FBD32A6364EF003FE11C /* MagicOrb.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A852FBE42A6364F1003FE11C /* MagicOrbTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A852FBFC2A6364F1003FE11C /* Build configuration list for PBXNativeTarget "MagicOrbTests" */;
+			buildPhases = (
+				A852FBE12A6364F1003FE11C /* Sources */,
+				A852FBE22A6364F1003FE11C /* Frameworks */,
+				A852FBE32A6364F1003FE11C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A852FBE72A6364F1003FE11C /* PBXTargetDependency */,
+			);
+			name = MagicOrbTests;
+			productName = MagicOrbTests;
+			productReference = A852FBE52A6364F1003FE11C /* MagicOrbTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A852FBEE2A6364F1003FE11C /* MagicOrbUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A852FBFF2A6364F1003FE11C /* Build configuration list for PBXNativeTarget "MagicOrbUITests" */;
+			buildPhases = (
+				A852FBEB2A6364F1003FE11C /* Sources */,
+				A852FBEC2A6364F1003FE11C /* Frameworks */,
+				A852FBED2A6364F1003FE11C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A852FBF12A6364F1003FE11C /* PBXTargetDependency */,
+			);
+			name = MagicOrbUITests;
+			productName = MagicOrbUITests;
+			productReference = A852FBEF2A6364F1003FE11C /* MagicOrbUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A852FBCB2A6364EF003FE11C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					A852FBD22A6364EF003FE11C = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					A852FBE42A6364F1003FE11C = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = A852FBD22A6364EF003FE11C;
+					};
+					A852FBEE2A6364F1003FE11C = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = A852FBD22A6364EF003FE11C;
+					};
+				};
+			};
+			buildConfigurationList = A852FBCE2A6364EF003FE11C /* Build configuration list for PBXProject "MagicOrb" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A852FBCA2A6364EF003FE11C;
+			productRefGroup = A852FBD42A6364EF003FE11C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A852FBD22A6364EF003FE11C /* MagicOrb */,
+				A852FBE42A6364F1003FE11C /* MagicOrbTests */,
+				A852FBEE2A6364F1003FE11C /* MagicOrbUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A852FBD12A6364EF003FE11C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A852FBDE2A6364F1003FE11C /* Preview Assets.xcassets in Resources */,
+				A852FBDB2A6364F1003FE11C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A852FBE32A6364F1003FE11C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A852FBED2A6364F1003FE11C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A852FBCF2A6364EF003FE11C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A852FBD92A6364EF003FE11C /* ContentView.swift in Sources */,
+				A852FBE02A6364F1003FE11C /* Item.swift in Sources */,
+				A852FBD72A6364EF003FE11C /* MagicOrbApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A852FBE12A6364F1003FE11C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A852FBEA2A6364F1003FE11C /* MagicOrbTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A852FBEB2A6364F1003FE11C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A852FBF62A6364F1003FE11C /* MagicOrbUITestsLaunchTests.swift in Sources */,
+				A852FBF42A6364F1003FE11C /* MagicOrbUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A852FBE72A6364F1003FE11C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A852FBD22A6364EF003FE11C /* MagicOrb */;
+			targetProxy = A852FBE62A6364F1003FE11C /* PBXContainerItemProxy */;
+		};
+		A852FBF12A6364F1003FE11C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A852FBD22A6364EF003FE11C /* MagicOrb */;
+			targetProxy = A852FBF02A6364F1003FE11C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A852FBF72A6364F1003FE11C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A852FBF82A6364F1003FE11C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A852FBFA2A6364F1003FE11C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MagicOrb/Preview Content\"";
+				DEVELOPMENT_TEAM = KW38PQP7BK;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.serlic.MagicOrb;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A852FBFB2A6364F1003FE11C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MagicOrb/Preview Content\"";
+				DEVELOPMENT_TEAM = KW38PQP7BK;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.serlic.MagicOrb;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A852FBFD2A6364F1003FE11C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KW38PQP7BK;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.serlic.MagicOrbTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MagicOrb.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MagicOrb";
+			};
+			name = Debug;
+		};
+		A852FBFE2A6364F1003FE11C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KW38PQP7BK;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.serlic.MagicOrbTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MagicOrb.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MagicOrb";
+			};
+			name = Release;
+		};
+		A852FC002A6364F1003FE11C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KW38PQP7BK;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.serlic.MagicOrbUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MagicOrb;
+			};
+			name = Debug;
+		};
+		A852FC012A6364F1003FE11C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KW38PQP7BK;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.serlic.MagicOrbUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MagicOrb;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A852FBCE2A6364EF003FE11C /* Build configuration list for PBXProject "MagicOrb" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A852FBF72A6364F1003FE11C /* Debug */,
+				A852FBF82A6364F1003FE11C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A852FBF92A6364F1003FE11C /* Build configuration list for PBXNativeTarget "MagicOrb" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A852FBFA2A6364F1003FE11C /* Debug */,
+				A852FBFB2A6364F1003FE11C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A852FBFC2A6364F1003FE11C /* Build configuration list for PBXNativeTarget "MagicOrbTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A852FBFD2A6364F1003FE11C /* Debug */,
+				A852FBFE2A6364F1003FE11C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A852FBFF2A6364F1003FE11C /* Build configuration list for PBXNativeTarget "MagicOrbUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A852FC002A6364F1003FE11C /* Debug */,
+				A852FC012A6364F1003FE11C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A852FBCB2A6364EF003FE11C /* Project object */;
+}
