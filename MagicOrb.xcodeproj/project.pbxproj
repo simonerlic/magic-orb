@@ -7,14 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A8323C732A6A4BA1005B6923 /* bluunext-bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A8323C722A6A4BA1005B6923 /* bluunext-bold.ttf */; };
+		A8323C752A6A50CE005B6923 /* AboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8323C742A6A50CE005B6923 /* AboutView.swift */; };
+		A8323C782A6A6940005B6923 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8323C772A6A6940005B6923 /* Launch Screen.storyboard */; };
 		A852FBD72A6364EF003FE11C /* MagicOrbApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A852FBD62A6364EF003FE11C /* MagicOrbApp.swift */; };
 		A852FBD92A6364EF003FE11C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A852FBD82A6364EF003FE11C /* ContentView.swift */; };
 		A852FBDB2A6364F1003FE11C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A852FBDA2A6364F1003FE11C /* Assets.xcassets */; };
 		A852FBDE2A6364F1003FE11C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A852FBDD2A6364F1003FE11C /* Preview Assets.xcassets */; };
-		A852FBE02A6364F1003FE11C /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = A852FBDF2A6364F1003FE11C /* Item.swift */; };
 		A852FBEA2A6364F1003FE11C /* MagicOrbTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A852FBE92A6364F1003FE11C /* MagicOrbTests.swift */; };
 		A852FBF42A6364F1003FE11C /* MagicOrbUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A852FBF32A6364F1003FE11C /* MagicOrbUITests.swift */; };
 		A852FBF62A6364F1003FE11C /* MagicOrbUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A852FBF52A6364F1003FE11C /* MagicOrbUITestsLaunchTests.swift */; };
+		A8A011012A6875AD008E744E /* MagicAnswers.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8A011002A6875AD008E744E /* MagicAnswers.swift */; };
+		A8A011042A687A68008E744E /* Vollkorn-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A8A011032A687A40008E744E /* Vollkorn-Medium.ttf */; };
+		A8A011082A68A3C4008E744E /* Vollkorn-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A8A011072A68A3C4008E744E /* Vollkorn-Bold.ttf */; };
+		A8A0110B2A68C532008E744E /* AnimateText in Frameworks */ = {isa = PBXBuildFile; productRef = A8A0110A2A68C532008E744E /* AnimateText */; };
+		A8A0110D2A68CAE2008E744E /* SpeechRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8A0110C2A68CAE2008E744E /* SpeechRecognizer.swift */; };
+		A8A0110F2A68D0D7008E744E /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8A0110E2A68D0D7008E744E /* Question.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,17 +43,25 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A8323C722A6A4BA1005B6923 /* bluunext-bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "bluunext-bold.ttf"; sourceTree = "<group>"; };
+		A8323C742A6A50CE005B6923 /* AboutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutView.swift; sourceTree = "<group>"; };
+		A8323C772A6A6940005B6923 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		A852FBD32A6364EF003FE11C /* MagicOrb.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MagicOrb.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A852FBD62A6364EF003FE11C /* MagicOrbApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagicOrbApp.swift; sourceTree = "<group>"; };
 		A852FBD82A6364EF003FE11C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A852FBDA2A6364F1003FE11C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A852FBDD2A6364F1003FE11C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		A852FBDF2A6364F1003FE11C /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		A852FBE52A6364F1003FE11C /* MagicOrbTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MagicOrbTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A852FBE92A6364F1003FE11C /* MagicOrbTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagicOrbTests.swift; sourceTree = "<group>"; };
 		A852FBEF2A6364F1003FE11C /* MagicOrbUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MagicOrbUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A852FBF32A6364F1003FE11C /* MagicOrbUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagicOrbUITests.swift; sourceTree = "<group>"; };
 		A852FBF52A6364F1003FE11C /* MagicOrbUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagicOrbUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A8A011002A6875AD008E744E /* MagicAnswers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagicAnswers.swift; sourceTree = "<group>"; };
+		A8A011032A687A40008E744E /* Vollkorn-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Vollkorn-Medium.ttf"; sourceTree = "<group>"; };
+		A8A011052A687B29008E744E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		A8A011072A68A3C4008E744E /* Vollkorn-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Vollkorn-Bold.ttf"; sourceTree = "<group>"; };
+		A8A0110C2A68CAE2008E744E /* SpeechRecognizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechRecognizer.swift; sourceTree = "<group>"; };
+		A8A0110E2A68D0D7008E744E /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +69,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A8A0110B2A68C532008E744E /* AnimateText in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -73,6 +90,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A8323C762A6A589C005B6923 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A8323C742A6A50CE005B6923 /* AboutView.swift */,
+				A852FBD82A6364EF003FE11C /* ContentView.swift */,
+				A8323C772A6A6940005B6923 /* Launch Screen.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		A852FBCA2A6364EF003FE11C = {
 			isa = PBXGroup;
 			children = (
@@ -96,10 +123,12 @@
 		A852FBD52A6364EF003FE11C /* MagicOrb */ = {
 			isa = PBXGroup;
 			children = (
+				A8A011052A687B29008E744E /* Info.plist */,
+				A8A011022A687959008E744E /* Fonts */,
 				A852FBD62A6364EF003FE11C /* MagicOrbApp.swift */,
-				A852FBD82A6364EF003FE11C /* ContentView.swift */,
+				A8323C762A6A589C005B6923 /* Views */,
+				A8A011102A698F96008E744E /* Models */,
 				A852FBDA2A6364F1003FE11C /* Assets.xcassets */,
-				A852FBDF2A6364F1003FE11C /* Item.swift */,
 				A852FBDC2A6364F1003FE11C /* Preview Content */,
 			);
 			path = MagicOrb;
@@ -130,6 +159,26 @@
 			path = MagicOrbUITests;
 			sourceTree = "<group>";
 		};
+		A8A011022A687959008E744E /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				A8323C722A6A4BA1005B6923 /* bluunext-bold.ttf */,
+				A8A011072A68A3C4008E744E /* Vollkorn-Bold.ttf */,
+				A8A011032A687A40008E744E /* Vollkorn-Medium.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		A8A011102A698F96008E744E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A8A0110E2A68D0D7008E744E /* Question.swift */,
+				A8A0110C2A68CAE2008E744E /* SpeechRecognizer.swift */,
+				A8A011002A6875AD008E744E /* MagicAnswers.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -146,6 +195,9 @@
 			dependencies = (
 			);
 			name = MagicOrb;
+			packageProductDependencies = (
+				A8A0110A2A68C532008E744E /* AnimateText */,
+			);
 			productName = MagicOrb;
 			productReference = A852FBD32A6364EF003FE11C /* MagicOrb.app */;
 			productType = "com.apple.product-type.application";
@@ -218,6 +270,9 @@
 				Base,
 			);
 			mainGroup = A852FBCA2A6364EF003FE11C;
+			packageReferences = (
+				A8A011092A68C532008E744E /* XCRemoteSwiftPackageReference "AnimateText" */,
+			);
 			productRefGroup = A852FBD42A6364EF003FE11C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -234,7 +289,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A8323C782A6A6940005B6923 /* Launch Screen.storyboard in Resources */,
+				A8A011042A687A68008E744E /* Vollkorn-Medium.ttf in Resources */,
+				A8323C732A6A4BA1005B6923 /* bluunext-bold.ttf in Resources */,
 				A852FBDE2A6364F1003FE11C /* Preview Assets.xcassets in Resources */,
+				A8A011082A68A3C4008E744E /* Vollkorn-Bold.ttf in Resources */,
 				A852FBDB2A6364F1003FE11C /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -260,9 +319,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A8A0110F2A68D0D7008E744E /* Question.swift in Sources */,
 				A852FBD92A6364EF003FE11C /* ContentView.swift in Sources */,
-				A852FBE02A6364F1003FE11C /* Item.swift in Sources */,
+				A8A011012A6875AD008E744E /* MagicAnswers.swift in Sources */,
 				A852FBD72A6364EF003FE11C /* MagicOrbApp.swift in Sources */,
+				A8323C752A6A50CE005B6923 /* AboutView.swift in Sources */,
+				A8A0110D2A68CAE2008E744E /* SpeechRecognizer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -423,15 +485,23 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_ASSET_PATHS = "\"MagicOrb/Preview Content\"";
-				DEVELOPMENT_TEAM = KW38PQP7BK;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MagicOrb/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Fortune;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.entertainment";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Audio is recorded to transcribe the question. Audio recordings are discarded after transcription.";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "You can see a text transcription of your question in the app.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
+				INFOPLIST_KEY_UIStatusBarStyle = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -441,9 +511,10 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = dev.serlic.MagicOrb;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -452,15 +523,23 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_ASSET_PATHS = "\"MagicOrb/Preview Content\"";
-				DEVELOPMENT_TEAM = KW38PQP7BK;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MagicOrb/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Fortune;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.entertainment";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Audio is recorded to transcribe the question. Audio recordings are discarded after transcription.";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "You can see a text transcription of your question in the app.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
+				INFOPLIST_KEY_UIStatusBarStyle = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -470,9 +549,10 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = dev.serlic.MagicOrb;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -592,6 +672,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		A8A011092A68C532008E744E /* XCRemoteSwiftPackageReference "AnimateText" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/jasudev/AnimateText.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.5.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A8A0110A2A68C532008E744E /* AnimateText */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A8A011092A68C532008E744E /* XCRemoteSwiftPackageReference "AnimateText" */;
+			productName = AnimateText;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = A852FBCB2A6364EF003FE11C /* Project object */;
 }
